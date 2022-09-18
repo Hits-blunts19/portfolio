@@ -1,0 +1,36 @@
+.prev{
+    position: absolute;
+    color: #2e2e2e;
+    bottom: 0;
+    top: 35%;
+    left: 100%;
+    font-size: 25px;
+    line-height: 50px;
+    display: inline-block;
+    height: 7vh;
+    width: 3vw;
+    cursor: pointer;
+}
+.prev:hover{
+    background-image: var(--secondary);
+    color: var(--light);
+    transition: var(--trans);
+}
+.next{
+    position: absolute;
+    color: #2e2e2e;
+    bottom: 0;
+    top: 60%;
+    left: 100%;
+    font-size: 25px;
+    line-height: 50px;
+    display: inline-block;
+    height: 7vh;
+    width: 3vw;
+    cursor: pointer;
+}
+.next:hover{
+    background-image: var(--secondary);
+    color: var(--light);
+    transition: var(--trans);
+}

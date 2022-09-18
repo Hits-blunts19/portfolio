@@ -1,0 +1,14 @@
+.icon-box i{
+    font-size: 30px;
+    color: #ffc800;
+}
+.counter-box .counter{
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--light);
+}
+.counter-box p{
+    color: var(--light);
+    font-weight: 700;
+    font-size: 20px;
+}

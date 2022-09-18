@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    padding-top: 200px;
+    padding-left: 450px;
+}
+img{
+    height: 50vh;
+    width: 50%;
+}

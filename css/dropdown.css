@@ -1,0 +1,59 @@
+.blog{
+    position: relative;
+}
+
+.pages{
+    position: relative;
+}
+.fa-chevron-right{
+    margin-left: 30px;
+}
+.dropdown{
+    background-image: linear-gradeint(to right #0a356f 0%,#1c6a96 40%,#247fa6 65%,#40d1e0 100%);
+    padding: 0;
+    position: relative;
+    display: none;
+}
+.dropdown a{
+    color: var(--primary);
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.dropdown a:hover{
+    color: var(--light);
+    transition: var(--trans);
+}
+
+.dropdown li+li{
+    margin-top: 0;
+}
+
+.dropdown li{
+    padding: 0.5em 1em;
+    width: 100%;
+    text-align: left;
+}
+
+.dropdown li:hover{
+    background-color: var(--primary);
+}
+
+.blog:hover .dropdown{
+    display: block;
+    height: 12vh;
+    width: 10vw;
+    position: absolute;
+    background-image: var(--light);
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pages:hover .dropdown{
+    display: block;
+    height: 12vh;
+    width: 10vw;
+    position: absolute;
+    background-image: var(--light);
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
